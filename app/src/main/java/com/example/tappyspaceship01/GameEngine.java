@@ -196,7 +196,6 @@ public class GameEngine extends SurfaceView implements Runnable {
 
             canvas.drawRect(enemyHitBox,paintbrush);
 
-
             canvas.drawBitmap(enemyImage, this.enemyX, this.enemyY, paintbrush);
             //----------------
             this.holder.unlockCanvasAndPost(canvas);
